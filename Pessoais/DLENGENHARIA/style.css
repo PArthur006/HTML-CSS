@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    margin: 40px;
+    font-size: 25px;
+    background-image: repeating-radial-gradient(circle, white , black ); 
+    background-attachment: fixed;
+}
+img {
+    border-style: solid;
+    margin: 2px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+li {
+    color:rgb(114, 87, 19);
+}
+h1 {
+    font-style: oblique;
+    background: rgba(158, 135, 3, 0.514);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    color: rgb(177, 130, 0);
+}
+.nome {
+    font-size: 30px;
+    text-align: center;
+}
+.social {
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+}
+a {
+    color: black;
+}
+.foto {
+    border-style: double;
+    width: auto;
+}

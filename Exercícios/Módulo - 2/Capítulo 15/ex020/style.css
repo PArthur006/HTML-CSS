@@ -1,0 +1,45 @@
+@charset 'UTF-8';
+
+/*
+    SELETORES PERSONALIZADOS
+    # = id
+    . = class
+    : = pseudo-class
+    :: = pseudo-element
+    > = children
+*/
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(160, 0, 0);
+    text-decoration: underline
+}
+a:visited{
+    color: darkred;
+}
+.especial{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+p::first-line{
+    color: blue;
+    background-color: pink;
+}
+.especial:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(161, 161, 161);
+}
+.especial::after{
+    content: '<<';
+    font-weight: lighter;
+}
+.especial::before{
+    content: '>>';
+    font-weight: lighter;
+}
